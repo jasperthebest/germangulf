@@ -46,7 +46,7 @@
       <div class="container">
          <div class="bannerflex">
             <div>
-               <div class="firsttoparea">
+               <div class="firsttoparea" data-animated="fadeInUp">
                   <h1><small>DELIVERING SOLUTIONS </small>FOR DIVERGENT NEEDS</h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                   <a href="#" class="btn readnowbtn">read more..</a>
@@ -59,22 +59,22 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>always </small>Above the mark!</h2>
+               <h2 data-animated="fadeInUp"><small>always </small>Above the mark!</h2>
             </div>
             <div>
-               <p>German Gulf engineering consultants provides sustainable, technically challenging engineering and architectural solutions for <b>OIL AND GAS, COMMERCIAL, INDUSTRIAL AND INFRASTRUCTURAL PROJECTS</b>. We respond to projects based on time-bound and cost effective principles and solutions </p>
+               <p data-animated="fadeInUp">German Gulf engineering consultants provides sustainable, technically challenging engineering and architectural solutions for <b>OIL AND GAS, COMMERCIAL, INDUSTRIAL AND INFRASTRUCTURAL PROJECTS</b>. We respond to projects based on time-bound and cost effective principles and solutions </p>
             </div>
          </div>
       </div>
    </div>
    <div class="container">
       <div class="majorproj text-center">
-         <h2>Major <b>Projects</b></h2>
-         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+         <h2 data-animated="fadeInUp">Major <b>Projects</b></h2>
+         <p data-animated="fadeInUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
       </div>
       <div class="flexcoverimg">
          <div>
-            <div>
+            <div data-animated="fadeInUp">
                <div class="bannerhref coverBG" data-bg="images/imagesurf.jpg">
                   <a href="#">
                      <div>
@@ -84,7 +84,7 @@
                   </a>
                </div>
             </div>
-            <div>
+            <div data-animated="fadeInUp">
                <div class="bannerhref coverBG" data-bg="images/imagesurf2.jpg">
                   <a href="#">
                      <div>
@@ -95,7 +95,7 @@
                </div>
             </div>
          </div>
-         <div class="coverBG">
+         <div class="coverBG" data-animated="fadeInUp">
             <div class="bannerhref coverBG" data-bg="images/imagesurf1.jpg">
                <a href="#">
                   <div>
@@ -107,7 +107,7 @@
          </div>
       </div>
       <div class="certifyassoci">
-         <div class="assocflex">
+         <div class="assocflex" data-animated="fadeInUp">
            <div>
               <img src="images/footerlogo1.png">
            </div>
@@ -121,7 +121,7 @@
               <img src="images/footerlogo4.png">
            </div> 
          </div>
-         <div class="certifyflex">
+         <div class="certifyflex" data-animated="fadeInUp">
            <div>
               <img src="images/footerlogo5.png">
            </div>
@@ -141,7 +141,7 @@
       <div class="container">
          <div class="footerflex">
             <div>
-               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#">Adequate</a></p>
+               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#" target="_blank">Adequate</a></p>
             </div>
             <div>
                <ul>

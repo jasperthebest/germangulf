@@ -43,7 +43,7 @@
          <div class="bannerflex">
             <div>
                <div class="firsttoparea">
-                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+                  <h1 data-animated="fadeInUp"><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
                </div>
             </div>
          </div>
@@ -53,17 +53,17 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>about</small>GERMAN Gulf</h2>
+               <h2 data-animated="fadeInUp"><small>about</small>GERMAN Gulf</h2>
             </div>
             <div>
-               <p>German Gulf Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
+               <p data-animated="fadeInUp">German Gulf Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
             </div>
          </div>
       </div>
    </div>
    <div class="container">
       <div class="envpolicyflex abtpageflex reverseflex">
-        <div>
+        <div data-animated="fadeInUp">
           <h2>Lorem <small>projects</small></h2>
           <ul>
             <p>At GGEC extensive multidimensional expertise combines to create outstanding results time and again. Our services cover Planning and Urban development, Architecture and Engineering Design, Permit Management, Project Management and Enterprise Asset Information Management for Commercial, Residential, Retail, Infrastructure, Industrial, Entertainment, Education, Hospitality, Healthcare and Specialized construction projects.</p>
@@ -73,7 +73,7 @@
           </ul>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <img src="images/policyimg.jpg" alt="">
           </span>
         </div>
@@ -82,7 +82,7 @@
    <div class="strikebg">
     <div class="container">
       <div class="envpolicyflex abtpageflex">
-        <div>
+        <div data-animated="fadeInUp">
           <h2>MD's <small>Message</small></h2>
           <ul>
             <p>Lorem Ipsum ynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</p>
@@ -91,7 +91,7 @@
           </ul>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <img src="images/policyimg.jpg" alt="">
           </span>
         </div>
@@ -101,18 +101,21 @@
    <div class="container">
       <div class="envpolicyflex vision">
         <div>
-          <h2>Mission <small>Statement</small></h2>
+          <div class="policyright" data-animated="fadeInUp">
+            <h2>Mission <small>Statement</small></h2>
             <ul>
               <li><p>Provide professional guidance and assistance to clients in all areas from conception to completion, with regard to projects of divergent nature and stature.</p></li>
               <li><p>Offer need-focused, integrated and sustainable solutions that ensure total client satisfaction.</p></li>
               <li><p>Champion zero-defect performance and continuous quality improvement at every level.</p></li>
               <li><p>Be the clients’ preferred project partner by enabling them with our diverse expertise, level of experience and proven results on time, every time.</p></li>
             </ul>
-          </ul>
+          </div>
         </div>
         <div>
-          <h2>Vision <small>Statement</small></h2>
-          <p>To harmonize technical expertise and quality service to become UAE’s leading Architectural Engineering Consultancy and to establish strong, long-term relationships with our customers, employees and associates, to lead our company into steady, successful growth for the future.</p>
+          <div class="policyleft" data-animated="fadeInUp">
+            <h2>Vision <small>Statement</small></h2>
+            <p>To harmonize technical expertise and quality service to become UAE’s leading Architectural Engineering Consultancy and to establish strong, long-term relationships with our customers, employees and associates, to lead our company into steady, successful growth for the future.</p>
+          </div>
         </div>
       </div>
     </div>

@@ -10,6 +10,8 @@
 }
 @media screen and (max-width:1180px) {
 	nav ul li { padding: 0 10px; }
+	.policyright { padding-right: 0; }
+	.policyleft { padding-left: 0; }
 }
 @media screen and (max-width:1023px) {
 	.animated {
@@ -58,6 +60,7 @@
 	}
 	.greenbtn { font-size: 16px; }
 	.contactform { padding: 40px 0; }
+	.contentwhat>div>div { padding-right: 0; }
 }
 @media screen and (max-width:950px) {
 	.envpolicyflex { flex-direction: column-reverse;
@@ -110,12 +113,11 @@
 		&:first-child { padding-top: 0; }
 		&.reverse {
 			.careerflex { padding-right: 0; 
-				h2 { background-color: $org; border-bottom: 0; color: $black; }
 				> div { padding: 30px; }
 			}
 		}
 		.careerflex { padding-left: 0; 
-			h2 { font-size: 26px; padding: 15px; position: static; transform: translateX(0); width: 100%; }
+			h2 { background-color: $org; border-bottom: 0; font-size: 26px; padding: 15px; position: static; transform: translateX(0); width: 100%; }
 			> div { padding: 30px; }
 		}
 	}
@@ -166,7 +168,10 @@
 	.flexform > div { padding: 0; width: 100%; }
 	.formmsg { padding: 0; }
 	.sendbtn { padding: 10px 15px; }
-	.formcontact { padding-bottom: 5px; } 
+	.formcontact { padding-bottom: 5px; }
+	.contentwhat>div { padding: 30px 20px;
+		h2 { font-size: 24px; line-height: 32px; }
+	}
 }
 @media screen and (max-width:480px) {
 	.firsttoparea h1 small { display: inline-block; }

@@ -43,7 +43,7 @@
          <div class="bannerflex">
             <div>
                <div class="firsttoparea">
-                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+                  <h1 data-animated="fadeInUp"><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
                </div>
             </div>
          </div>
@@ -53,83 +53,92 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>Committed to a </small>SAFER WORKPLACE</h2>
+               <h2 data-animated="fadeInUp"><small>Committed to a </small>SAFER WORKPLACE</h2>
             </div>
             <div>
-               <p>Lorem Ipsum ulf believes it is essential to attain exceptional health and safety performance to be a world class performer. Our target is zero incidences of work related hazards by integrating risk and safety management and assessment systems and by developing an awareness culture all around. Kelvin Gulf always emphasizes</p>
+               <p data-animated="fadeInUp">Lorem Ipsum ulf believes it is essential to attain exceptional health and safety performance to be a world class performer. Our target is zero incidences of work related hazards by integrating risk and safety management and assessment systems and by developing an awareness culture all around. Kelvin Gulf always emphasizes</p>
             </div>
          </div>
       </div>
    </div>
    <div class="container">
       <div class="policyicon">
-        <div>
-          <span>
+        <div class="active">
+          <span data-animated="fadeInUp">
             <span><img src="images/policyicon.png" alt=""></span><small>Quality Policy</small>
           </span>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <span><img src="images/policyicon1.png" alt=""></span><small>Health and Safety Policy</small>
           </span>
         </div>
-        <div class="active">
-          <span>
+        <div>
+          <span data-animated="fadeInUp">
             <span><img src="images/policyicon2.png" alt=""></span><small>Environmental Policy</small>
           </span>
         </div>
       </div>
    </div>
-   <div class="envpolicy">
+   <div class="envpolicy" data-animated="fadeInUp">
     <div class="container">
       <div class="envpolicyslider">
         <div>
           <div class="envpolicyflex">
             <div>
+              <h2>Quality <small>Policy</small></h2>
+              <ul>
+                <li>Deliver our client’s quality standards specified in the contract within budget.</li>
+                <li>Organize simple, well-planned project procedures with documentary evidence of all quality control measures, as well as meeting legal requirements.</li>
+                <li>Ensure employee training in quality assurance, providing resources necessary to achieve the required level of quality.</li>
+                <li>Ensure quality control mechanisms are sufficiently and effectively applied, reviewed and improved with the best practice procedures.</li>
+                <li>Provide a proactive decision-making document with accurate reporting on the design consultant’s performance and the progress of designs.</li>
+              </ul>
+            </div>
+            <div>
+              <span>
+                <img src="images/qualitypolicy.jpg" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="envpolicyflex">
+            <div>
+              <h2>Health and <small>Safety Policy</small></h2>
+              <ul>
+                <li>Comply with the requirements of the Health and Safety Management System in line with Environmental Agency Abu Dhabi (EAD) Health and Safety management system and to continually improve its effectiveness through regular self-assessment and performance measurement.</li>
+                <li>Undertake activities without compromising or causing conflict with other EHS principles and objectives.</li>
+                <li>Integrate Health and Safety considerations into decisions to ensure that the measures adopted are cost-effective and compiling with the requirements of ISO 9001:2008, ISO 14001:2004 and OHSAS 18001:2007 progressively for continual improvement of efficiency and effectiveness.</li>
+                <li>Improve personal skills and competencies of our employees on health, safety and environment through training and development programs to ensure that the health, diversity and productivity of the environment is maintained or enhanced for the benefit of future generations in order to achieve sustainable development.</li>
+                <li>Provide a safe and healthy working environment by identifying hazards, assessing the risk and determining controls in areas of work.</li>
+                <li>Establish, Implement, communicate and continually measure the achievement of our approved quality, health, safety and environmental objectives & targets of our stated policy.</li>
+                <li>Comply with all current legislative and regulatory requirements applicable on Kelvin Gulf ’s scope of work.</li>
+              </ul>
+            </div>
+            <div>
+              <span>
+                <img src="images/healthpolicy.jpg" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="envpolicyflex">
+            <div>
               <h2>Environmental <small>Policy</small></h2>
               <ul>
-                <li>Unwavering dynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</li>
-                <li>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</li>
-                <li>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times.</li>
+                <li>Provide the management with the necessary structure and resources, identify the control and monitor all company operations, in order to minimize the impact of its activities on the environment.</li>
+                <li>Hold all levels of management, supervision and line staff responsible for sound environmental management and development of positive attitudes in themselves and those they manage.</li>
+                <li>Comply in full with all applicable environmental legislation.</li>
+                <li>Establish and periodically review measurable objectives targets and associated management programs.</li>
+                <li>Develop and maintain emergency procedures in cooperation, wherever necessary, with other operating companies, local authorities and emergency services.</li>
+                <li>Good environmental performance is integral to the business and therefore it will be treated as a primary business objective.</li>
               </ul>
             </div>
             <div>
               <span>
-                <img src="images/policyimg.jpg" alt="">
-              </span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="envpolicyflex">
-            <div>
-              <h2>Two <small>Policy</small></h2>
-              <ul>
-                <li>Unwavering dynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</li>
-                <li>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</li>
-                <li>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times.</li>
-              </ul>
-            </div>
-            <div>
-              <span>
-                <img src="images/policyimg.jpg" alt="">
-              </span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="envpolicyflex">
-            <div>
-              <h2>Three <small>Policy</small></h2>
-              <ul>
-                <li>Unwavering dynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</li>
-                <li>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</li>
-                <li>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times.</li>
-              </ul>
-            </div>
-            <div>
-              <span>
-                <img src="images/policyimg.jpg" alt="">
+                <img src="images/envpolicy.jpg" alt="">
               </span>
             </div>
           </div>

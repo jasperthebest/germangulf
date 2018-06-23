@@ -82,6 +82,30 @@ a { color: $org; transition: all .3s linear; }
 ::-moz-selection { background: $org; color: $white; }
 ::selection { background: $org; color: $white; }
 
+/* Animation */
+.animated { opacity: 0; animation-fill-mode: both; }
+.fadeInUp { animation-name: fadeInUp; animation-delay: .4s; animation-duration: .25s; }
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Homepage */
 .btn { display: inline-block; outline: none; padding: 10px 25px; text-align: center; 
   &.readnowbtn { background-color: transparent; border: 1px solid $white; color: $white; 
@@ -143,14 +167,12 @@ nav {
   }
   p { color: $white; padding-bottom: 50px; }
 }
-.twoshortbox { position: relative; z-index: 2;
-  &:before, &:after { content: ''; height: 100%; position: absolute; top: 0; width: 50%; z-index: -1; }
-  &:before { background-color: $lgrey; left: 0; }
-  &:after { background-color: $llgrey; right: 0; }
+.twoshortbox { background-color: $llgrey; position: relative; z-index: 2;
+  &:before { background-color: $lgrey; border-top: 5px solid $org; left: 0;  content: ''; height: 100%; position: absolute; top: 0; width: 50%; z-index: -1; }
 }
 .twoshortflex { display: flex; flex-wrap: wrap;
   > div {
-    &:first-child { align-items: center; background-color: $lgrey; display: flex; justify-content: center; width: 420px; 
+    &:first-child { align-items: center; display: flex; justify-content: center; width: 420px; 
       h2 { padding-bottom: 0; text-transform: uppercase;
         small { display: block; font-size: 100%; font-weight: 400; text-transform: lowercase; }
       }
@@ -235,7 +257,7 @@ nav {
         span { border-bottom: 3px solid $org; }
       }
       .boxorgout { margin-bottom: 45px; padding: 50px 0 25px 30px; position: relative; z-index: 3;
-        &:before { border: 2px solid $org; content: ''; height: 100%; left: 0; position: absolute; top: 0; width: calc(100% + 100px); z-index: -1; }
+        &:before { border: 3px solid $org; content: ''; height: 100%; left: 0; position: absolute; top: 0; width: calc(100% + 100px); z-index: -1; }
       }
       .btnright { text-align: right; }
     }
@@ -276,13 +298,28 @@ nav {
 }
 .policyicon { display: flex; flex-wrap: wrap; justify-content: space-between; margin: 0 auto; max-width: 750px; padding: 50px 0;
   div { text-align: center; 
+    &:hover {
+      > span {
+        > span {
+          img { filter: grayscale(0); transform: translateY(0); }
+        }
+      }
+    }
     > span { cursor: pointer; display: inline-block; 
       &:hover {
         small { color: $org; }
       }
+      > span { display: inline-block; overflow: hidden; 
+        img { filter: grayscale(1); transform: translateY(50%); transition: all .2s ease-in-out; }
+      }
     }
-    small { display: block; font-size: 14px; padding-top: 10px; transition: all .3s linear; }
+    small { display: block; font-size: 14px; padding-top: 10px; transition: all .2s ease-in-out; }
     &.active {
+      > span {
+        > span {
+          img { filter: grayscale(0); transform: translateY(0); }
+        }
+      }
       small { color: $org; }
     }
   }
@@ -339,14 +376,19 @@ nav {
 /* Careers */
 .careeralllist { padding: 40px 0 20px; }
 .careerbox { padding: 35px 0;
+  &:hover {
+    .careerflex {
+      h2 { background-color: $org; }
+    }
+  }
   &.reverse {
     .careerflex { padding: 0 250px 0 0;
-      h2 { background-color: $white; border-bottom: 5px solid $org; left: initial; right: 0; }
+      h2 { left: initial; right: 0; }
       > div { padding: 40px 200px 40px 30px; }
     }
   }
   .careerflex { padding-left: 250px; position: relative; 
-    h2 { background-color: $org; color: $black; left: 0; padding: 40px 20px; position: absolute; top: 50%; transform: translateY(-50%); text-align: center; width: 400px;
+    h2 { background-color: $white; border-bottom: 5px solid $org; color: $black; left: 0; padding: 40px 20px; position: absolute; top: 50%; transform: translateY(-50%); transition: all .25s linear; text-align: center; width: 400px;
       small { font-size: 100%; font-weight: 400; }
     }
     > div { border: 3px solid $org; padding: 40px 30px 40px 200px; }
@@ -361,9 +403,9 @@ nav {
   }
 }
 .plainbtn { color: $grey; display: inline-block; 
-  img { margin-left: 10px; transform: translateX(0); transition: transform .15s ease-in-out; }
+  i { display: inline-block; font-size: 18px; margin-left: 10px; transform: translate(0, 2px); transition: transform .15s ease-in-out; }
   &:hover { color: $org; 
-    img { transform: translateX(5px); }
+    i { transform: translate(5px, 3px); }
   }
 }
 
@@ -373,7 +415,7 @@ nav {
     h2 { color: $org;
       small { font-size: 100%; font-weight: 400; }
     }
-    > div { overflow-y: auto; max-height: 400px; 
+    > div { overflow-y: auto; max-height: 400px; padding-right: 30px;
       &::-webkit-scrollbar { width: 3px; }
       &::-webkit-scrollbar-track { background: $black; }
       &::-webkit-scrollbar-thumb { background: $org; width: 3px; }
@@ -388,8 +430,8 @@ nav {
   h2 { color: $black; font-weight: 400; letter-spacing: 2px; }
 }
 .inputbox { padding-bottom: 15px;
-  input { background-color: $white; border: 0; border-bottom: 1px solid $grey; outline: none; padding: 10px 15px; transition: border-color .25s linear; width: 100%;
-    &:focus { border-color: $org; }
+  input, select { background-color: $white; border: 0; border-bottom: 1px solid $grey; outline: none; padding: 10px 15px; transition: all .25s linear; width: 100%;
+    &:focus { border-bottom: 2px solid $org; }
   }
 }
 .formcontact { padding-bottom: 20px; }
@@ -397,13 +439,26 @@ nav {
   > div { padding: 0 30px; width: 50%; }
 }
 .formmsg { padding: 0 250px 0 30px; position: relative; 
-  textarea { background-color: $white; border: 0; border-bottom: 1px solid $grey; display: block; outline: none; padding: 10px 15px; transition: border-color .25s linear; width: 100%; 
-    &:focus { border-color: $org; }
+  textarea { background-color: $white; border: 0; border-bottom: 1px solid $grey; display: block; outline: none; padding: 10px 15px; transition: all .25s linear; width: 100%; 
+    &:focus { border-bottom: 2px solid $org; }
   }
   > div { bottom: 0; padding-left: 40px; position: absolute; right: 30px; width: 220px; }
 }
 .sendbtn { background-color: $white; border: 1px solid $org; color: $org; display: inline-block; width: 180px; padding: 15px; text-align: center; transition: all .3s linear; 
   &:hover { background-color: $org; color: $white; }
 }
+
+.envpolicyslider {
+  .envpolicyflex {
+    > div {
+      &:last-child {
+        span { align-items: center; display: flex; height: 100%; justify-content: center; }
+      }
+    }
+  }
+}
+
+.policyright { padding-right: 30px; }
+.policyleft { padding-left: 30px; }
 
 @import "responsive";

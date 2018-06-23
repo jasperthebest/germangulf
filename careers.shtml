@@ -43,7 +43,7 @@
          <div class="bannerflex">
             <div>
                <div class="firsttoparea">
-                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+                  <h1 data-animated="fadeInUp"><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
                </div>
             </div>
          </div>
@@ -53,10 +53,10 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>offering a growth </small>ENVIRONMENT</h2>
+               <h2 data-animated="fadeInUp"><small>offering a growth </small>ENVIRONMENT</h2>
             </div>
             <div>
-               <p>Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
+               <p data-animated="fadeInUp">Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
             </div>
          </div>
       </div>
@@ -64,35 +64,35 @@
    <div class="container">
     <div class="careeralllist">
       <div class="careerbox">
-        <div class="careerflex">
+        <div class="careerflex" data-animated="fadeInUp">
           <h2>CAD / <small>Revit Technician</small></h2>
           <div>
             <p>A relevant degree in engineering or architectural technology is desirable. A Certificate or qualification in Revit as well as AutoCAD is essential. Approval by Municipality and/or other authorities is a distinct advantage. Responsibilities: A relevant degree in engineering or architectural technology is desirable.</p>
             <div class="btnracks">
               <ul>
-                <li><a href="#" class="plainbtn">read more <img src="images/arrowblack.png"></a></li>
-                <li><a href="#" class="plainbtn">apply now <img src="images/arrowblack.png"></a></li>
+                <li><a href="#" class="plainbtn">read more <i class="fi fi-arrow-right-l"></i></a></li>
+                <li><a href="#" class="plainbtn">apply now <i class="fi fi-arrow-right-l"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div class="careerbox reverse">
-        <div class="careerflex">
+        <div class="careerflex" data-animated="fadeInUp">
           <h2>CAD / <small>Revit Technician</small></h2>
           <div>
             <p>A relevant degree in engineering or architectural technology is desirable. A Certificate or qualification in Revit as well as AutoCAD is essential. Approval by Municipality and/or other authorities is a distinct advantage. Responsibilities: A relevant degree in engineering or architectural technology is desirable.</p>
             <div class="btnracks">
               <ul>
-                <li><a href="#" class="plainbtn">read more <img src="images/arrowblack.png"></a></li>
-                <li><a href="#" class="plainbtn">apply now <img src="images/arrowblack.png"></a></li>
+                <li><a href="#" class="plainbtn">read more <i class="fi fi-arrow-right-l"></i></a></li>
+                <li><a href="#" class="plainbtn">apply now <i class="fi fi-arrow-right-l"></i></a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
-      <div class="navpaginate">
+      <div class="navpaginate" data-animated="fadeInUp">
         <ul>
           <li><a href="#"><i class="fi fi-angle-left"></i><span>Previous</span></a></li>
           <li><a href="#"><span>1</span></a></li>

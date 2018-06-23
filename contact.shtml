@@ -43,10 +43,10 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>expanding </small>across countries</h2>
+               <h2 data-animated="fadeInUp"><small>expanding </small>across countries</h2>
             </div>
             <div>
-               <p><strong>German Gulf Engineering Consultants</strong>
+               <p data-animated="fadeInUp"><strong>German Gulf Engineering Consultants</strong>
                 PO Box 28198, Abu Dhabi, UAE
                 <span>
                   Tel: +971 2 679 9630<br/>
@@ -59,32 +59,37 @@
    </div>
    <div class="container">
     <div class="contactform">
-      <h2>Enquiry</h2>
-      <p>We are always within reach of you with the right suite of solutions for your project needs. Kindly tell us your requirements and we will be in touch with you at the earliest.</p>
+      <h2 data-animated="fadeInUp">Enquiry</h2>
+      <p data-animated="fadeInUp">We are always within reach of you with the right suite of solutions for your project needs. Kindly tell us your requirements and we will be in touch with you at the earliest.</p>
       <div class="formcontact">
         <div class="flexform">
           <div>
-            <div class="inputbox">
+            <div class="inputbox" data-animated="fadeInUp">
               <input type="text" placeholder="Full Name" name="">
             </div>  
           </div>
           <div>
-            <div class="inputbox">
+            <div class="inputbox" data-animated="fadeInUp">
               <input type="text" placeholder="Website" name="">
             </div>
           </div>
           <div>
-            <div class="inputbox">
+            <div class="inputbox" data-animated="fadeInUp">
               <input type="text" placeholder="Email" name="">
             </div>
           </div>
           <div>
-            <div class="inputbox">
-              <input type="text" placeholder="Topic" name="">
+            <div class="inputbox" data-animated="fadeInUp">
+              <select>
+                <option selected disabled>Topic</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+              </select>
             </div>
           </div>
         </div>
-        <div class="formmsg">
+        <div class="formmsg" data-animated="fadeInUp">
           <textarea rows="5" placeholder="Message"></textarea>
           <div>
             <button class="sendbtn">Send</button>

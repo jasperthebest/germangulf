@@ -43,7 +43,7 @@
          <div class="bannerflex">
             <div>
                <div class="firsttoparea">
-                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+                  <h1 data-animated="fadeInUp"><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
                </div>
             </div>
          </div>
@@ -53,10 +53,10 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>delivering solutions for </small>DIVERGENT NEEDS</h2>
+               <h2 data-animated="fadeInUp"><small>delivering solutions for </small>DIVERGENT NEEDS</h2>
             </div>
             <div>
-               <p>Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
+               <p data-animated="fadeInUp">Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
             </div>
          </div>
       </div>
@@ -65,38 +65,38 @@
     <div class="whattank">
       <div class="envpolicyflex abtpageflex prjtflex reverseflex">
         <div>
-          <h2>PLANNING</h2>
-          <div class="boxorgout">
+          <h2 data-animated="fadeInUp">PLANNING</h2>
+          <div class="boxorgout" data-animated="fadeInUp">
             <p>German Gulf expertise enables the feasibility of infrastructure developments and efficiency of strategic decision-making by providing the most appropriate planning frameworks</p>
             <div class="btnright">
-              <a href="#" class="plainbtn descpopshow">read more <img src="images/arrowblack.png"></a>
+              <a href="#" class="plainbtn descpopshow">read more <i class="fi fi-arrow-right-l"></i></a>
             </div>
           </div>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <img src="images/policyimg.jpg" alt="">
           </span>
         </div>
       </div>
       <div class="envpolicyflex abtpageflex prjtflex">
         <div>
-          <h2>ARCHITECTURE <small>and ENGINEERING DESIGN</small></h2>
-          <div class="boxorgout">
+          <h2 data-animated="fadeInUp">ARCHITECTURE <small>and ENGINEERING DESIGN</small></h2>
+          <div class="boxorgout" data-animated="fadeInUp">
             <p>German Gulf expertise enables the feasibility of infrastructure developments and efficiency of strategic decision-making by providing the most appropriate planning frameworks</p>
             <div class="btnright">
-              <a href="#" class="plainbtn descpopshow">read more <img src="images/arrowblack.png"></a>
+              <a href="#" class="plainbtn descpopshow">read more <i class="fi fi-arrow-right-l"></i></a>
             </div>
           </div>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <img src="images/policyimg.jpg" alt="">
           </span>
         </div>
       </div>
     </div>
-      <div class="navpaginate">
+      <div class="navpaginate" data-animated="fadeInUp">
         <ul>
           <li><a href="#"><i class="fi fi-angle-left"></i><span>Previous</span></a></li>
           <li><a href="#"><span>1</span></a></li>

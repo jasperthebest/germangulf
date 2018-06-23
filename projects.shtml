@@ -43,7 +43,7 @@
          <div class="bannerflex">
             <div>
                <div class="firsttoparea">
-                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+                  <h1 data-animated="fadeInUp"><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
                </div>
             </div>
          </div>
@@ -53,10 +53,10 @@
       <div class="container">
          <div class="twoshortflex">
             <div>
-               <h2><small>towering facades</small>of success</h2>
+               <h2 data-animated="fadeInUp"><small>towering facades</small>of success</h2>
             </div>
             <div>
-               <p>Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
+               <p data-animated="fadeInUp">Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
             </div>
          </div>
       </div>
@@ -64,33 +64,33 @@
    <div class="container">
       <div class="envpolicyflex abtpageflex prjtflex reverseflex">
         <div>
-          <h2>KIZAD <small>the industrial zone of tomorrow</small></h2>
-          <div class="boxorgout">
+          <h2 data-animated="fadeInUp">KIZAD <small>the industrial zone of tomorrow</small></h2>
+          <div class="boxorgout" data-animated="fadeInUp">
             <p>Khalifa Industrial Zone Abu Dhabi [KIZAD] is a world class industrial complex located in tandem with one of the world’s most advanced ports and an integral part of the Abu Dhabi Economic Vision 2030.  With a massive 417 km2 of prime industrial land to be developed it provides a wealth of opportunity on a global scale.  German Gulf is one of the first consultants engaged on the project and we are currently developing the first stage of the project with Pre-Built Warehouses in two packages with a Show Warehouse.</p>
             <p>German Gulf is now preparing further designs for projects in KIZAD Zone A - manufacturing facilities with warehouse and offices expected to be on site in the second half of 2013.</p>
           </div>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <img src="images/policyimg.jpg" alt="">
           </span>
         </div>
       </div>
       <div class="envpolicyflex abtpageflex prjtflex">
         <div>
-          <h2>KIZAD <small>the industrial zone of tomorrow</small></h2>
-          <div class="boxorgout">
+          <h2 data-animated="fadeInUp">KIZAD <small>the industrial zone of tomorrow</small></h2>
+          <div class="boxorgout" data-animated="fadeInUp">
             <p>Khalifa Industrial Zone Abu Dhabi [KIZAD] is a world class industrial complex located in tandem with one of the world’s most advanced ports and an integral part of the Abu Dhabi Economic Vision 2030.  With a massive 417 km2 of prime industrial land to be developed it provides a wealth of opportunity on a global scale.  German Gulf is one of the first consultants engaged on the project and we are currently developing the first stage of the project with Pre-Built Warehouses in two packages with a Show Warehouse.</p>
             <p>German Gulf is now preparing further designs for projects in KIZAD Zone A - manufacturing facilities with warehouse and offices expected to be on site in the second half of 2013.</p>
           </div>
         </div>
         <div>
-          <span>
+          <span data-animated="fadeInUp">
             <img src="images/policyimg.jpg" alt="">
           </span>
         </div>
       </div>
-      <div class="navpaginate">
+      <div class="navpaginate" data-animated="fadeInUp">
         <ul>
           <li><a href="#"><i class="fi fi-angle-left"></i><span>Previous</span></a></li>
           <li><a href="#"><span>1</span></a></li>

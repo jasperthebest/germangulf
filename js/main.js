@@ -97,6 +97,7 @@
 
 		/* Body Animate */
 		$('body').animate({'opacity':1}, 1500);
+		
 		/* BG intro */
 		$('[data-bg]').each(function(){
 		var curBg = $(this).data('bg');
