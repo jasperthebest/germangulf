@@ -1,0 +1,33 @@
+$white: #FFF;
+$black: #000;
+$grey: #353535;
+$org: #ea6b20;
+$hdclr: #4c4c4c;
+$lgrey: #525252;
+$llgrey: #f8f8f8;
+$bdgrey: #adadad;
+$logogrey: #858585;
+$pbrclr: #9aa59a;
+$green: #46b000;
+$visgrey: #868686;
+$lgreen: #599a14;
+$navgrey: #a1a7a7;
+$cntgrey: #d2d2d2;
+$font: 'Asap', sans-serif;
+$awe: 'FontAwesome';
+.transitionRegular {
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+.appear {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+.backface {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+} 

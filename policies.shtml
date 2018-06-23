@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Policies</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div id="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="flexhead">
+            <div>
+              <a href="#" class="logofit"><img src="images/logo.png" alt="German Gulf"></a> 
+            </div>
+            <div class="navbox">
+               <nav>
+                  <ul>
+                     <li class="active"><a href="#">ABOUT US</a></li>
+                     <li><a href="#">PROJECTS</a></li>
+                     <li><a href="#">WHAT WE DO</a></li>
+                     <li><a href="#">POLICIES</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">CONTACT US</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="bannersubarea coverBG" data-bg="images/policiesbg.jpg">
+      <div class="container">
+         <div class="bannerflex">
+            <div>
+               <div class="firsttoparea">
+                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="twoshortbox">
+      <div class="container">
+         <div class="twoshortflex">
+            <div>
+               <h2><small>Committed to a </small>SAFER WORKPLACE</h2>
+            </div>
+            <div>
+               <p>Lorem Ipsum ulf believes it is essential to attain exceptional health and safety performance to be a world class performer. Our target is zero incidences of work related hazards by integrating risk and safety management and assessment systems and by developing an awareness culture all around. Kelvin Gulf always emphasizes</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="policyicon">
+        <div>
+          <span>
+            <span><img src="images/policyicon.png" alt=""></span><small>Quality Policy</small>
+          </span>
+        </div>
+        <div>
+          <span>
+            <span><img src="images/policyicon1.png" alt=""></span><small>Health and Safety Policy</small>
+          </span>
+        </div>
+        <div class="active">
+          <span>
+            <span><img src="images/policyicon2.png" alt=""></span><small>Environmental Policy</small>
+          </span>
+        </div>
+      </div>
+   </div>
+   <div class="envpolicy">
+    <div class="container">
+      <div class="envpolicyslider">
+        <div>
+          <div class="envpolicyflex">
+            <div>
+              <h2>Environmental <small>Policy</small></h2>
+              <ul>
+                <li>Unwavering dynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</li>
+                <li>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</li>
+                <li>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times.</li>
+              </ul>
+            </div>
+            <div>
+              <span>
+                <img src="images/policyimg.jpg" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="envpolicyflex">
+            <div>
+              <h2>Two <small>Policy</small></h2>
+              <ul>
+                <li>Unwavering dynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</li>
+                <li>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</li>
+                <li>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times.</li>
+              </ul>
+            </div>
+            <div>
+              <span>
+                <img src="images/policyimg.jpg" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="envpolicyflex">
+            <div>
+              <h2>Three <small>Policy</small></h2>
+              <ul>
+                <li>Unwavering dynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</li>
+                <li>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</li>
+                <li>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times.</li>
+              </ul>
+            </div>
+            <div>
+              <span>
+                <img src="images/policyimg.jpg" alt="">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footerflex">
+            <div>
+               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#">Adequate</a></p>
+            </div>
+            <div>
+               <ul>
+                  <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                  <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                  <li><a href="#"><i class="fi fi-youtube-play"></i></a></li>
+                  <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

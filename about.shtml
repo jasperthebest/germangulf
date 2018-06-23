@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>About</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div id="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="flexhead">
+            <div>
+              <a href="#" class="logofit"><img src="images/logo.png" alt="German Gulf"></a> 
+            </div>
+            <div class="navbox">
+               <nav>
+                  <ul>
+                     <li class="active"><a href="#">ABOUT US</a></li>
+                     <li><a href="#">PROJECTS</a></li>
+                     <li><a href="#">WHAT WE DO</a></li>
+                     <li><a href="#">POLICIES</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">CONTACT US</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="bannersubarea coverBG" data-bg="images/policiesbg.jpg">
+      <div class="container">
+         <div class="bannerflex">
+            <div>
+               <div class="firsttoparea">
+                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="twoshortbox">
+      <div class="container">
+         <div class="twoshortflex">
+            <div>
+               <h2><small>about</small>GERMAN Gulf</h2>
+            </div>
+            <div>
+               <p>German Gulf Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="envpolicyflex abtpageflex reverseflex">
+        <div>
+          <h2>Lorem <small>projects</small></h2>
+          <ul>
+            <p>At GGEC extensive multidimensional expertise combines to create outstanding results time and again. Our services cover Planning and Urban development, Architecture and Engineering Design, Permit Management, Project Management and Enterprise Asset Information Management for Commercial, Residential, Retail, Infrastructure, Industrial, Entertainment, Education, Hospitality, Healthcare and Specialized construction projects.</p>
+            <p>Together with our Associates GGEC has an enviable reputation in the field of architectural and engineering consultancy services and has the capacity to execute diverse projects such as urban development (villages and cities), residential projects varying in scale and complexity, commercial buildings, shopping malls and entertainment centres, educational institutions, hospitality developments and healthcare projects providing services that meet international and local codes and construction standards under one umbrella.</p>
+            <p>GGEC translates global concepts into reality, compatible with local culture, traditional values and a sustainable environment. Our commitment is to deliver quality with cost effectiveness, to support progressive development and to exceed client expectations with performance excellence.</p>
+            <a href="#" class="greenbtn socialbtn">Corporate Social Responsibility <img src="images/arrow.png" alt=""></a>
+          </ul>
+        </div>
+        <div>
+          <span>
+            <img src="images/policyimg.jpg" alt="">
+          </span>
+        </div>
+      </div>
+   </div>
+   <div class="strikebg">
+    <div class="container">
+      <div class="envpolicyflex abtpageflex">
+        <div>
+          <h2>MD's <small>Message</small></h2>
+          <ul>
+            <p>Lorem Ipsum ynamism and a firm belief that anything is possible are the tenets that make our achievements substantial. Though our beginnings were modest, our unbridled resolve and confidence have driven our vision beyond boundaries.</p>
+            <p>We firmly believe in a simple, straightforward approach and we endorse the traditional values of honesty, integrity and social conscience. These principles define the corporate character and we regard them as the fundamental to the enterprise performance and success.</p>
+            <p>We embraced the UAE as a land of opportunity, progressive and visionary, and identified the region’s potential for industrial growth. We have built on our early beginnings as a modest engineering Company to align our progress with the Nation’s development and the Kelvin Group of three companies, of which German Gulf is the consulting arm, has prospered through even the most trying times. Our Group is also growing with the establishment of our Indian operation under the title of Downtown Engineering Consultants India Pvt Ltd which has its head office at Connaught Place in New Delhi, a branch office in Kochi and a registered office in London.</p>
+          </ul>
+        </div>
+        <div>
+          <span>
+            <img src="images/policyimg.jpg" alt="">
+          </span>
+        </div>
+      </div>
+    </div>
+   </div>
+   <div class="container">
+      <div class="envpolicyflex vision">
+        <div>
+          <h2>Mission <small>Statement</small></h2>
+            <ul>
+              <li><p>Provide professional guidance and assistance to clients in all areas from conception to completion, with regard to projects of divergent nature and stature.</p></li>
+              <li><p>Offer need-focused, integrated and sustainable solutions that ensure total client satisfaction.</p></li>
+              <li><p>Champion zero-defect performance and continuous quality improvement at every level.</p></li>
+              <li><p>Be the clients’ preferred project partner by enabling them with our diverse expertise, level of experience and proven results on time, every time.</p></li>
+            </ul>
+          </ul>
+        </div>
+        <div>
+          <h2>Vision <small>Statement</small></h2>
+          <p>To harmonize technical expertise and quality service to become UAE’s leading Architectural Engineering Consultancy and to establish strong, long-term relationships with our customers, employees and associates, to lead our company into steady, successful growth for the future.</p>
+        </div>
+      </div>
+    </div>
+   <footer>
+      <div class="container">
+         <div class="footerflex">
+            <div>
+               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#">Adequate</a></p>
+            </div>
+            <div>
+               <ul>
+                  <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                  <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                  <li><a href="#"><i class="fi fi-youtube-play"></i></a></li>
+                  <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- Pop up -->
+   <div class="lightpopup">
+      <div class="middlebox">
+        <div>
+          <div class="planttop">
+            <span class="closepop">CLOSE <i class="fi fi-close-a"></i></span>
+            <div>
+              <div class="plantshow coverBG" data-bg="images/abtpopbg.jpg">
+                <h2>Corporate <small>Social Responsibility</small></h2>
+                <p>German Gulf Engineering Consultants has made the commitment to develop a Corporate Social Responsibility Plan to ensure that its daily activities adhere to a set of moral guidelines and respect people and the environment. It is the continuing commitment by the business to behave ethically, contribute to economic development and improve the quality of life of employees, their families, the local community and the wider society.</p>
+                <p>We are embarking on a program of educational modules for schools and shopping malls to enhance awareness of sustainable issues. We encourage energy and resource savings within the Company and make further contributions through investing in Carbon Offsets.</p>
+              </div>
+              <div class="plantbtm">
+                <p>The Carbon Offsets initiative will both help in reforestation efforts and contribute to sustainable development for rural areas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

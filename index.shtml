@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Home</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div id="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="flexhead">
+            <div>
+              <a href="#" class="logofit"><img src="images/logo.png" alt="German Gulf"></a> 
+            </div>
+            <div class="navbox">
+               <nav>
+                  <ul>
+                     <li class="active"><a href="#">ABOUT US</a></li>
+                     <li><a href="#">PROJECTS</a></li>
+                     <li><a href="#">WHAT WE DO</a></li>
+                     <li><a href="#">POLICIES</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">CONTACT US</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="bannerarea">
+    <video autoplay muted loop id="myVideo">
+      <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+      <div class="container">
+         <div class="bannerflex">
+            <div>
+               <div class="firsttoparea">
+                  <h1><small>DELIVERING SOLUTIONS </small>FOR DIVERGENT NEEDS</h1>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <a href="#" class="btn readnowbtn">read more..</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="twoshortbox">
+      <div class="container">
+         <div class="twoshortflex">
+            <div>
+               <h2><small>always </small>Above the mark!</h2>
+            </div>
+            <div>
+               <p>German Gulf engineering consultants provides sustainable, technically challenging engineering and architectural solutions for <b>OIL AND GAS, COMMERCIAL, INDUSTRIAL AND INFRASTRUCTURAL PROJECTS</b>. We respond to projects based on time-bound and cost effective principles and solutions </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="majorproj text-center">
+         <h2>Major <b>Projects</b></h2>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="flexcoverimg">
+         <div>
+            <div>
+               <div class="bannerhref coverBG" data-bg="images/imagesurf.jpg">
+                  <a href="#">
+                     <div>
+                        <h4>SHUWEIHAT S3 POWER PLANT</h4>
+                        <p>The S3 power plant at Shuweihat, Ruwais, is the ninth project in ADWEA’s programme of Public Private Partnership developments. </p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <div>
+               <div class="bannerhref coverBG" data-bg="images/imagesurf2.jpg">
+                  <a href="#">
+                     <div>
+                        <h4>SHUWEIHAT S3 POWER PLANT</h4>
+                        <p>The S3 power plant at Shuweihat, Ruwais, is the ninth project in ADWEA’s programme of Public Private Partnership developments. </p>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="coverBG">
+            <div class="bannerhref coverBG" data-bg="images/imagesurf1.jpg">
+               <a href="#">
+                  <div>
+                     <h4>SHUWEIHAT S3 POWER PLANT</h4>
+                     <p>The S3 power plant at Shuweihat, Ruwais, is the ninth project in ADWEA’s programme of Public Private Partnership developments.</p>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="certifyassoci">
+         <div class="assocflex">
+           <div>
+              <img src="images/footerlogo1.png">
+           </div>
+           <div>
+              <img src="images/footerlogo2.png">
+           </div>
+           <div>
+              <img src="images/footerlogo3.png">
+           </div>
+           <div>
+              <img src="images/footerlogo4.png">
+           </div> 
+         </div>
+         <div class="certifyflex">
+           <div>
+              <img src="images/footerlogo5.png">
+           </div>
+           <div>
+              <img src="images/footerlogo6.png">
+           </div>
+           <div>
+              <img src="images/footerlogo7.png">
+           </div>
+           <div>
+              <img src="images/footerlogo8.png">
+           </div> 
+         </div>
+      </div>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footerflex">
+            <div>
+               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#">Adequate</a></p>
+            </div>
+            <div>
+               <ul>
+                  <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                  <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                  <li><a href="#"><i class="fi fi-youtube-play"></i></a></li>
+                  <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

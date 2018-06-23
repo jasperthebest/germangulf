@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Contact</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div id="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="flexhead">
+            <div>
+              <a href="#" class="logofit"><img src="images/logo.png" alt="German Gulf"></a> 
+            </div>
+            <div class="navbox">
+               <nav>
+                  <ul>
+                     <li class="active"><a href="#">ABOUT US</a></li>
+                     <li><a href="#">PROJECTS</a></li>
+                     <li><a href="#">WHAT WE DO</a></li>
+                     <li><a href="#">POLICIES</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">CONTACT US</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div id="mapkit"></div>
+   <div class="twoshortbox">
+      <div class="container">
+         <div class="twoshortflex">
+            <div>
+               <h2><small>expanding </small>across countries</h2>
+            </div>
+            <div>
+               <p><strong>German Gulf Engineering Consultants</strong>
+                PO Box 28198, Abu Dhabi, UAE
+                <span>
+                  Tel: +971 2 679 9630<br/>
+                  Fax: +971 2 679 9620
+                </span>
+                <a href="#">mail@germancosults.com</a></p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+    <div class="contactform">
+      <h2>Enquiry</h2>
+      <p>We are always within reach of you with the right suite of solutions for your project needs. Kindly tell us your requirements and we will be in touch with you at the earliest.</p>
+      <div class="formcontact">
+        <div class="flexform">
+          <div>
+            <div class="inputbox">
+              <input type="text" placeholder="Full Name" name="">
+            </div>  
+          </div>
+          <div>
+            <div class="inputbox">
+              <input type="text" placeholder="Website" name="">
+            </div>
+          </div>
+          <div>
+            <div class="inputbox">
+              <input type="text" placeholder="Email" name="">
+            </div>
+          </div>
+          <div>
+            <div class="inputbox">
+              <input type="text" placeholder="Topic" name="">
+            </div>
+          </div>
+        </div>
+        <div class="formmsg">
+          <textarea rows="5" placeholder="Message"></textarea>
+          <div>
+            <button class="sendbtn">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footerflex">
+            <div>
+               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#">Adequate</a></p>
+            </div>
+            <div>
+               <ul>
+                  <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                  <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                  <li><a href="#"><i class="fi fi-youtube-play"></i></a></li>
+                  <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- script -->
+   <script src="//maps.googleapis.com/maps/api/js?key=&extension=.js"></script>
+   <script>
+          google.maps.event.addDomListener(window, 'load', init);
+            var map, markersArray = [];
+            function bindInfoWindow(marker, map, location) {
+              google.maps.event.addListener(marker, 'click', function() {
+                function close(location) {
+                  location.ib.close();
+                  location.infoWindowVisible = false;
+                  location.ib = null;
+                }
+                if (location.infoWindowVisible === true) {
+                  close(location);
+                } else {
+                  markersArray.forEach(function(loc, index) {
+                    if (loc.ib && loc.ib !== null) {
+                      close(loc);
+                    }
+                  });
+                  var boxText = document.createElement('div');
+                  boxText.style.cssText = 'background: #fff;';
+                  boxText.classList.add('md-whiteframe-2dp');
+
+                  function buildPieces(location, el, part, icon) {
+                    if (location[part] === '') {
+                      return '';
+                    } else if (location.iw[part]) {
+                      switch (el) {
+                        case 'photo':
+                          if (location.photo) {
+                            return '<div class="iw-photo" style="background-image: url(' + location.photo + ');"></div>';
+                          } else {
+                            return '';
+                          }
+                          break;
+                        case 'iw-toolbar':
+                          return '<div class="iw-toolbar"><h3 class="md-subhead">' + location.title + '</h3></div>';
+                          break;
+                        case 'div':
+                          switch (part) {
+                            case 'email':
+                              return '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><span><a href="mailto:' + location.email + '" target="_blank">' + location.email + '</a></span></div>'
+                              break;
+                            case 'web':
+                              return '<div class="iw-details"><i class="material-icons" style="color:#4285f4;"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><span><a href="' + location.web + '" target="_blank">' + location.web_formatted + '</a></span></div>';
+                              break;
+                            case 'desc':
+                              return '<label class="iw-desc" for="cb_details"><input type="checkbox" id="cb_details"/><h3 class="iw-x-details">Details</h3><i class="material-icons toggle-open-details"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><p class="iw-x-details">' + location.desc + '</p></label>';
+                              break;
+                            default:
+                              return '<div class="iw-details"><i class="material-icons"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><span>' + location.part + '</span></div>';
+                              break;
+                          }
+                          break;
+                        case 'open_hours':
+                          var items = '';
+                          if (location.open_hours.length > 0) {
+                            for (var i = 0; i < location.open_hours.length; ++i) {
+                              if (i !== 0) {
+                                items += '<li><strong>' + location.open_hours[i].day + '</strong><strong>' + location.open_hours[i].hours + '</strong></li>';
+                              }
+                              var first = '<li><label for="cb_hours"><input type="checkbox" id="cb_hours"/><strong>location.open_hours[0].day</strong><strong>' + location.open_hours[0].hours + '</strong><i class="material-icons toggle-open-hours"><img src="//cdn.mapkit.io/v1/icons/keyboard_arrow_down.svg"/></i><ul>' + items + '</ul></label></li>';
+                            }
+                            return '<div class="iw-list"><i class="material-icons first-material-icons" style="color:#4285f4;"><img src="//cdn.mapkit.io/v1/icons/' + icon + '.svg"/></i><ul>' + first + '</ul></div>';
+                          } else {
+                            return '';
+                          }
+                          break;
+                      }
+                    } else {
+                      return '';
+                    }
+                  }
+                  boxText.innerHTML = buildPieces(location, 'photo', 'photo', '') + buildPieces(location, 'iw-toolbar', 'title', '') + buildPieces(location, 'div', 'address', 'location_on') + buildPieces(location, 'div', 'web', 'public') + buildPieces(location, 'div', 'email', 'email') + buildPieces(location, 'div', 'tel', 'phone') + buildPieces(location, 'div', 'int_tel', 'phone') + buildPieces(location, 'open_hours', 'open_hours', 'access_time') + buildPieces(location, 'div', 'desc', 'keyboard_arrow_down');
+                  var myOptions = {
+                    alignBottom: true,
+                    content: boxText,
+                    disableAutoPan: true,
+                    maxWidth: 0,
+                    pixelOffset: new google.maps.Size(-140, -40),
+                    zIndex: null,
+                    boxStyle: {
+                      opacity: 1,
+                      width: '280px'
+                    },
+                    closeBoxMargin: '0px 0px 0px 0px',
+                    infoBoxClearance: new google.maps.Size(1, 1),
+                    isHidden: false,
+                    pane: 'floatPane',
+                    enableEventPropagation: false
+                  };
+                  location.ib = new InfoBox(myOptions);
+                  location.ib.open(map, marker);
+                  location.infoWindowVisible = true;
+                }
+              });
+            }
+
+            function init() {
+              var mapOptions = {
+                center: new google.maps.LatLng(25.31233505755066, 55.38356676318358),
+                zoom: 15,gestureHandling: 'auto',fullscreenControl: false,zoomControl: true,
+                disableDoubleClickZoom: true,
+                
+                mapTypeControl: true,
+                mapTypeControlOptions: {
+                  style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+                },
+                scaleControl: true,
+                scrollwheel: false,
+                streetViewControl: true,
+                draggable: true,
+                clickableIcons: false,
+                fullscreenControlOptions: {
+                  position: google.maps.ControlPosition.TOP_RIGHT
+                },
+                zoomControlOptions: {
+                  position: google.maps.ControlPosition.RIGHT_BOTTOM
+                },
+                streetViewControlOptions: {
+                  position: google.maps.ControlPosition.RIGHT_BOTTOM
+                },
+                mapTypeControlOptions: {
+                  position: google.maps.ControlPosition.TOP_LEFT
+                },
+                
+                mapTypeId: google.maps.MapTypeId.ROADMAP,
+                
+                styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+                
+              }
+              var mapElement = document.getElementById('mapkit');
+              var map = new google.maps.Map(mapElement, mapOptions);
+              var locations = [{"title":"German - Gulf Enterprises LTD","address":"Al Khan Road - Sharjah Industrial Area 7 - Sharjah - United Arab Emirates","desc":"","tel":"","int_tel":"","email":"","web":"","web_formatted":"","open":"","time":"","lat":25.312449,"lng":55.38405399999999,"vicinity":"Al Khan Road - Sharjah Industrial Area 7 - Sharjah - United Arab Emirates","marker":"","iw":{"address":true,"desc":true,"email":true,"enable":true,"int_tel":true,"open":true,"open_hours":true,"photo":true,"tel":true,"title":true,"web":true}}];
+              
+              for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                icon: locations[i].marker,
+                position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+                map: map,
+                title: locations[i].title,
+                address: locations[i].address,
+                desc: locations[i].desc,
+                tel: locations[i].tel,
+                int_tel: locations[i].int_tel,
+                vicinity: locations[i].vicinity,
+                open: locations[i].open,
+                open_hours: locations[i].open_hours,
+                photo: locations[i].photo,
+                time: locations[i].time,
+                email: locations[i].email,
+                web: locations[i].web,
+                iw: locations[i].iw
+              });
+
+              markersArray.push(marker);
+
+              if (locations[i].iw.enable === true){
+                bindInfoWindow(marker, map, locations[i]);
+              }
+            }
+            
+            }
+        </script>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Projects</title>
+      <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+   <header>
+      <div id="nav-icon">
+         <span></span>
+         <span></span>
+         <span></span>
+         <span></span>
+      </div>
+      <div class="container">
+         <div class="flexhead">
+            <div>
+              <a href="#" class="logofit"><img src="images/logo.png" alt="German Gulf"></a> 
+            </div>
+            <div class="navbox">
+               <nav>
+                  <ul>
+                     <li class="active"><a href="#">ABOUT US</a></li>
+                     <li><a href="#">PROJECTS</a></li>
+                     <li><a href="#">WHAT WE DO</a></li>
+                     <li><a href="#">POLICIES</a></li>
+                     <li><a href="#">Careers</a></li>
+                     <li><a href="#">CONTACT US</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </header>
+   <div class="bannersubarea coverBG" data-bg="images/policiesbg.jpg">
+      <div class="container">
+         <div class="bannerflex">
+            <div>
+               <div class="firsttoparea">
+                  <h1><small>Our expertise ensures solutions </small>that are practical and sustainable</h1>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="twoshortbox">
+      <div class="container">
+         <div class="twoshortflex">
+            <div>
+               <h2><small>towering facades</small>of success</h2>
+            </div>
+            <div>
+               <p>Lorem Ipsum Engineering Consultants (GGEC) are Design and Project Management Consultants (Pre and Post Contract Services) based in Abu Dhabi, UAE, to provide sustainable, innovative and efficient solutions for the construction industry and thereby contribute to the Nation’s development.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+      <div class="envpolicyflex abtpageflex prjtflex reverseflex">
+        <div>
+          <h2>KIZAD <small>the industrial zone of tomorrow</small></h2>
+          <div class="boxorgout">
+            <p>Khalifa Industrial Zone Abu Dhabi [KIZAD] is a world class industrial complex located in tandem with one of the world’s most advanced ports and an integral part of the Abu Dhabi Economic Vision 2030.  With a massive 417 km2 of prime industrial land to be developed it provides a wealth of opportunity on a global scale.  German Gulf is one of the first consultants engaged on the project and we are currently developing the first stage of the project with Pre-Built Warehouses in two packages with a Show Warehouse.</p>
+            <p>German Gulf is now preparing further designs for projects in KIZAD Zone A - manufacturing facilities with warehouse and offices expected to be on site in the second half of 2013.</p>
+          </div>
+        </div>
+        <div>
+          <span>
+            <img src="images/policyimg.jpg" alt="">
+          </span>
+        </div>
+      </div>
+      <div class="envpolicyflex abtpageflex prjtflex">
+        <div>
+          <h2>KIZAD <small>the industrial zone of tomorrow</small></h2>
+          <div class="boxorgout">
+            <p>Khalifa Industrial Zone Abu Dhabi [KIZAD] is a world class industrial complex located in tandem with one of the world’s most advanced ports and an integral part of the Abu Dhabi Economic Vision 2030.  With a massive 417 km2 of prime industrial land to be developed it provides a wealth of opportunity on a global scale.  German Gulf is one of the first consultants engaged on the project and we are currently developing the first stage of the project with Pre-Built Warehouses in two packages with a Show Warehouse.</p>
+            <p>German Gulf is now preparing further designs for projects in KIZAD Zone A - manufacturing facilities with warehouse and offices expected to be on site in the second half of 2013.</p>
+          </div>
+        </div>
+        <div>
+          <span>
+            <img src="images/policyimg.jpg" alt="">
+          </span>
+        </div>
+      </div>
+      <div class="navpaginate">
+        <ul>
+          <li><a href="#"><i class="fi fi-angle-left"></i><span>Previous</span></a></li>
+          <li><a href="#"><span>1</span></a></li>
+          <li class="active"><a href="#"><span>2</span></a></li>
+          <li><a href="#"><span>3</span></a></li>
+          <li><a href="#"><span>Next</span><i class="fi fi-angle-right"></i></a></li>
+        </ul>
+      </div>
+   </div>
+   <footer>
+      <div class="container">
+         <div class="footerflex">
+            <div>
+               <p>&copy; 2018 German Gulf Engineering Consultants. Designed by <a href="#">Adequate</a></p>
+            </div>
+            <div>
+               <ul>
+                  <li><a href="#"><i class="fi fi-facebook"></i></a></li>
+                  <li><a href="#"><i class="fi fi-instagram"></i></a></li>
+                  <li><a href="#"><i class="fi fi-youtube-play"></i></a></li>
+                  <li><a href="#"><i class="fi fi-twitter"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!-- script -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="js/main.min.js"></script>
+   </body>
+</html>
