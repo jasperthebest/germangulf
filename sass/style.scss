@@ -216,6 +216,10 @@ nav {
 .certifyassoci { border-top: 1px solid $bdgrey; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 25px 0;
   > div { align-items: center; display: flex; flex-wrap: wrap;
     > div { padding: 0 20px; 
+      img { filter: grayscale(0); transform: scale(1); transition: all .3s ease-in-out; }
+      &:hover {
+        img { filter: grayscale(1); transform: scale(.85); }
+      }
       &:first-child { padding-left: 0; }
       &:last-child { padding-right: 0; }
     }
