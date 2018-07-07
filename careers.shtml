@@ -70,8 +70,8 @@
             <p>A relevant degree in engineering or architectural technology is desirable. A Certificate or qualification in Revit as well as AutoCAD is essential. Approval by Municipality and/or other authorities is a distinct advantage. Responsibilities: A relevant degree in engineering or architectural technology is desirable.</p>
             <div class="btnracks">
               <ul>
-                <li><a href="#" class="plainbtn">read more <i class="fi fi-arrow-right-l"></i></a></li>
-                <li><a href="#" class="plainbtn">apply now <i class="fi fi-arrow-right-l"></i></a></li>
+                <li><a href="#" class="plainbtn readbtnshow">read more <i class="fi fi-arrow-right-l"></i></a></li>
+                <li><a href="#" class="plainbtn applybtnshow">apply now <i class="fi fi-arrow-right-l"></i></a></li>
               </ul>
             </div>
           </div>
@@ -84,8 +84,8 @@
             <p>A relevant degree in engineering or architectural technology is desirable. A Certificate or qualification in Revit as well as AutoCAD is essential. Approval by Municipality and/or other authorities is a distinct advantage. Responsibilities: A relevant degree in engineering or architectural technology is desirable.</p>
             <div class="btnracks">
               <ul>
-                <li><a href="#" class="plainbtn">read more <i class="fi fi-arrow-right-l"></i></a></li>
-                <li><a href="#" class="plainbtn">apply now <i class="fi fi-arrow-right-l"></i></a></li>
+                <li><a href="#" class="plainbtn readbtnshow">read more <i class="fi fi-arrow-right-l"></i></a></li>
+                <li><a href="#" class="plainbtn applybtnshow">apply now <i class="fi fi-arrow-right-l"></i></a></li>
               </ul>
             </div>
           </div>
@@ -119,6 +119,119 @@
          </div>
       </div>
    </footer>
+   <!-- Detail Popup -->
+   <div class="lightpopup detailpoper">
+      <div class="middlebox">
+        <div>
+          <div class="detailpopup">
+            <span class="closepop">CLOSE <i class="fi fi-close-a"></i></span>
+            <div>
+              <div class="flexdetailstop">
+                <div>
+                  Reference No
+                </div>
+                <div>
+                  GG001
+                </div>
+              </div>
+              <div class="flexdetailstop">
+                <div>
+                  Posted On
+                </div>
+                <div>
+                  24 March 2014
+                </div>
+              </div>
+              <div class="flexdetailstop">
+                <div>
+                  Location
+                </div>
+                <div>
+                  Abu Dhabi
+                </div>
+              </div>
+              <div class="flexdetailstop">
+                <div>
+                  Salary
+                </div>
+                <div>
+                  Relevant to experience
+                </div>
+              </div>
+              <div class="flexdetailstop">
+                <div>
+                  Details
+                </div>
+                <div>
+                  Revit as well as AutoCAD is essential. Approval by Municipality and/or other authorities is a distinct advantage. Responsibilities: A relevant degree in engineering or architectural technology is desirable.
+                </div>
+              </div>
+              <div class="flexdetailstop">
+                <div>
+                  Experience
+                </div>
+                <div>
+                  Relevant to experience
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Popup -->
+   <div class="lightpopup jobappoper">
+      <div class="middlebox">
+        <div>
+          <div class="formcareer">
+            <span class="closepop">CLOSE <i class="fi fi-close-a"></i></span>
+            <div>
+              <h2>Job Application</h2>
+              <div class="flexcareer">
+                <div>
+                  <div class="inputbox">
+                    <input type="text" placeholder="Name" name="">
+                  </div>
+                </div>
+                <div>
+                  <div class="inputbox">
+                    <input type="text" placeholder="Email" name="">
+                  </div>
+                </div>
+                <div>
+                  <div class="inputbox">
+                    <input type="text" placeholder="Mobile No" name="">
+                  </div>
+                </div>
+                <div>
+                  <div class="inputbox">
+                    <select>
+                      <option selected disabled>Nationality</option>
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="singlelayerone">
+                <div class="inputbox fileupload">
+                  <input type="file" id="filemove" name="" accept="application/msword, text/plain, application/pdf">
+                  <span>Browse</span>
+                  <input type="text" placeholder="No file selected" name="">
+                </div>
+                <div class="inputbox">
+                  <textarea rows="5" placeholder="Message"></textarea>
+                </div>
+              </div>
+              <div class="text-center">
+                <button class="sendbtn">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
    <!-- script -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
    <script src="js/main.min.js"></script>

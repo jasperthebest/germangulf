@@ -135,7 +135,9 @@ header { background-color: $white; border-bottom: 1px solid $org; padding: 0; po
   }
 }
 .flexhead { display: flex; justify-content: space-between; }
-.navbox { align-items: flex-end; display: flex; }
+.navbox { align-items: flex-end; display: flex; 
+  .casualwrite { color: $casorg; display: block; font: 30px/30px $curv; padding-right: 20px; text-align: right; }
+}
 .logofit { display: inline-block; padding: 15px 0; }
 nav {
   ul {
@@ -216,7 +218,7 @@ nav {
 .certifyassoci { border-top: 1px solid $bdgrey; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 25px 0;
   > div { align-items: center; display: flex; flex-wrap: wrap;
     > div { padding: 0 20px; 
-      img { filter: grayscale(0); transform: scale(1); transition: all .3s ease-in-out; }
+      img { filter: grayscale(0); transform: scale(1); transition: all .3s ease-in-out; width: 75%; }
       &:hover {
         img { filter: grayscale(1); transform: scale(.85); }
       }
@@ -227,14 +229,14 @@ nav {
 }
 .footerflex { border-top: 1px solid $bdgrey; display: flex; flex-wrap: wrap; justify-content: space-between; padding: 30px 0;
   > div {
-    p { color: $hdclr; font-size: 12px; padding-bottom: 0; 
-      a { color: $hdclr; display: inline-block; 
+    p { color: $ftrclr; font-size: 12px; padding-bottom: 0; 
+      a { color: $ftrclr; display: inline-block; 
         &:hover { color: $org; }
       }
     }
     ul {
       li { display: inline-block; padding: 0 20px;
-        a { color: $logogrey; display: inline-block; 
+        a { color: $ftrclr; display: inline-block; 
           &:hover { color: $org; }
         }
         &:first-child { padding-left: 0; }
@@ -424,6 +426,9 @@ nav {
       &::-webkit-scrollbar-track { background: $black; }
       &::-webkit-scrollbar-thumb { background: $org; width: 3px; }
       p:last-child { padding-bottom: 0; }
+      ul {
+        li { list-style: disc; margin-left: 20px; }
+      }
     }
   }
 }
@@ -434,7 +439,7 @@ nav {
   h2 { color: $black; font-weight: 400; letter-spacing: 2px; }
 }
 .inputbox { padding-bottom: 15px;
-  input, select { background-color: $white; border: 0; border-bottom: 1px solid $grey; outline: none; padding: 10px 15px; transition: all .25s linear; width: 100%;
+  input, select, textarea { background-color: $white; border: 0; border-bottom: 1px solid $grey; outline: none; padding: 10px 15px; transition: all .25s linear; width: 100%;
     &:focus { border-bottom: 2px solid $org; }
   }
 }
@@ -464,5 +469,45 @@ nav {
 
 .policyright { padding-right: 30px; }
 .policyleft { padding-left: 30px; }
+
+.formcareer { background-color: $white; margin: 0 auto; max-width: 800px; position: relative; 
+  > div { padding: 30px 20px; 
+    h2 { color: $black; padding-left: 10px; }
+  }
+}
+
+.detailpopup { background-color: $white; margin: 0 auto; max-width: 800px; position: relative; 
+  > div { padding: 30px 20px; }
+}
+
+.flexcareer { display: flex; flex-wrap: wrap;
+  > div { padding: 0 10px; width: 50%; }
+}
+
+.singlelayerone { padding: 0 10px; } 
+
+.fileupload { position: relative; 
+  #filemove { height: 0; opacity: 0; left: 0; position: absolute; top: 0; width: 0; }
+  span { background-color: $org; border: 1px solid $org; border-radius: 5px; color: $white; cursor: pointer; display: inline-block; left: 3px; padding: 3px 10px; position: absolute; top: 3px; transition: all .25s linear;
+    &:hover { background-color: $white; color: $org; }
+  }
+  input { padding-left: 85px; }
+}
+
+.flexdetailstop { display: flex; flex-wrap: wrap;
+  &:last-child {
+    > div { padding-bottom: 0; }
+  }
+  > div { padding-bottom: 10px;
+    &:first-child { width: 160px; }
+    &:last-child { padding-left: 15px; position: relative; width: calc(100% - 200px); 
+      &:before { content: ':'; left: 0; position: absolute; top: 0; }
+    }
+  }
+}
+
+.whattank {
+  .envpolicyflex>div:first-child ul li { border-bottom: 0; list-style: disc; margin-left: 20px; }
+}
 
 @import "responsive";

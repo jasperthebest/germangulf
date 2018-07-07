@@ -139,16 +139,38 @@
 		$('body').click(function(){
 			$('.lightpopup').removeClass('active');
 		});
-		$('.planttop > div').click(function(e){
+		$(document).keyup(function(e) { 
+	        if (e.keyCode == 27) {
+	        	if($('.lightpopup').length != 0)
+	            $('.lightpopup').removeClass('active');
+	        }
+	    });
+		$('.planttop > div, .contentwhat > div, .formcareer > div, .detailpopup > div').click(function(e){
 			e.stopImmediatePropagation();
 		});
-		$('.socialbtn').click(function(){
+		$('.socialbtn, .descpopshow').click(function(){
 			$('.lightpopup').addClass('active');
 			return false;
 		});
-		$('.descpopshow').click(function(){
-			$('.lightpopup').addClass('active');
+
+		$('.applybtnshow').click(function(){
+			$('.jobappoper').addClass('active');
 			return false;
+		});
+
+		$('.readbtnshow').click(function(){
+			$('.detailpoper').addClass('active');
+			return false;
+		});
+
+		/* File upload */
+		$('.fileupload span, .fileupload input[type=text]').click(function(){
+			$('#filemove').trigger('click');
+		});
+		$('#filemove').change(function(){
+			var fileInput = document.getElementById('filemove');   
+			var filename = fileInput.files[0].name;
+			$('.fileupload input[type=text]').val(filename);
 		});
 
 		/* Init Function */

@@ -61,6 +61,7 @@
 	.greenbtn { font-size: 16px; }
 	.contactform { padding: 40px 0; }
 	.contentwhat>div>div { padding-right: 0; }
+	.navbox .casualwrite { display: none; }
 }
 @media screen and (max-width:950px) {
 	.envpolicyflex { flex-direction: column-reverse;
@@ -133,6 +134,7 @@
 	.formcontact { padding-bottom: 10px; }
 }
 @media screen and (max-width:680px) {
+	.certifyassoci { display: none; }
 	.certifyassoci>div>div { padding: 0 20px 15px; text-align: center; width: 50%; }
 	.certifyassoci>div:first-child { padding-bottom: 0; }
 	.certifyassoci { padding: 20px 0; }
@@ -156,6 +158,23 @@
 			span, i { transform: skew(0); }
 		}
 	}
+	.bannersubarea { background-color: $org; background-image: none !important; }
+	.careerbox.reverse .careerflex>div { padding: 20px; }
+}
+@media screen and (max-width:599px) {
+	.singlelayerone { padding: 0; }
+	.flexcareer>div { padding: 0; width: 100%; }
+	.bannerarea .bannerflex { height: 400px; }
+	.bannerflex { height: 300px; }
+	.flexdetailstop { padding-bottom: 10px;
+		&:last-child { padding-bottom: 0; }
+		> div { padding-bottom: 0;
+			&:first-child { font-weight: 700; width: 100%; }
+			&:last-child { padding-left: 0; width: 100%;
+				&:before { display: none; }
+			}
+		}
+	}
 }
 @media screen and (max-width:540px) {
 	.firsttoparea h1 { font-size: 36px; line-height: 44px; }
@@ -175,14 +194,19 @@
 }
 @media screen and (max-width:480px) {
 	.firsttoparea h1 small { display: inline-block; }
-	.careerbox .careerflex .btnracks ul li { display: list-item; margin: 0; padding: 0 0 15px;
-		&:first-child { padding-right: 0; }
-		&:last-child { padding-left: 0; }
+	.careerbox .careerflex .btnracks ul { display: flex; justify-content: space-between;
+		li { margin: 0; padding: 0 0 15px;
+			&:first-child { padding-right: 0; }
+			&:last-child { padding-left: 0; }
+		}	
 	}
+	.formcareer>div h2 { font-size: 24px; line-height: 32px; padding-bottom: 15px; }
+	.bannerflex { height: 280px; }
 }
 @media screen and (max-width:350px) {
 	.navpaginate ul li a { padding: 10px; }
 	.plantshow, .plantbtm { padding: 30px 15px 10px; }
 	.lightpopup { padding: 50px 15px; }
 	.twoshortflex>div:first-child h2 small { display: inline; }
+	.plainbtn i { margin-left: 5px; }
 }

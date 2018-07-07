@@ -248,12 +248,13 @@
                 
               }
               var mapElement = document.getElementById('mapkit');
+              var image = "images/map_pin.png";
               var map = new google.maps.Map(mapElement, mapOptions);
               var locations = [{"title":"German - Gulf Enterprises LTD","address":"Al Khan Road - Sharjah Industrial Area 7 - Sharjah - United Arab Emirates","desc":"","tel":"","int_tel":"","email":"","web":"","web_formatted":"","open":"","time":"","lat":25.312449,"lng":55.38405399999999,"vicinity":"Al Khan Road - Sharjah Industrial Area 7 - Sharjah - United Arab Emirates","marker":"","iw":{"address":true,"desc":true,"email":true,"enable":true,"int_tel":true,"open":true,"open_hours":true,"photo":true,"tel":true,"title":true,"web":true}}];
               
               for (i = 0; i < locations.length; i++) {
                 marker = new google.maps.Marker({
-                icon: locations[i].marker,
+                icon: image,
                 position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
                 map: map,
                 title: locations[i].title,

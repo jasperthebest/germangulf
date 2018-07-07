@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
       <title>Home</title>
       <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
-      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700|Satisfy" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
    </head>
@@ -24,16 +24,19 @@
               <a href="#" class="logofit"><img src="images/logo.png" alt="German Gulf"></a> 
             </div>
             <div class="navbox">
-               <nav>
-                  <ul>
-                     <li class="active"><a href="#">ABOUT US</a></li>
-                     <li><a href="#">PROJECTS</a></li>
-                     <li><a href="#">WHAT WE DO</a></li>
-                     <li><a href="#">POLICIES</a></li>
-                     <li><a href="#">Careers</a></li>
-                     <li><a href="#">CONTACT US</a></li>
-                  </ul>
-               </nav>
+              <div>
+                <span class="casualwrite">always above the mark !</span>
+                 <nav>
+                    <ul>
+                       <li class="active"><a href="#">ABOUT US</a></li>
+                       <li><a href="#">PROJECTS</a></li>
+                       <li><a href="#">WHAT WE DO</a></li>
+                       <li><a href="#">POLICIES</a></li>
+                       <li><a href="#">Careers</a></li>
+                       <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                 </nav>
+               </div>
             </div>
          </div>
       </div>
